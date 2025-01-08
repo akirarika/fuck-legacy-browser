@@ -3,7 +3,7 @@
 
 We may want to give some hints to legacy browsers, informing them that they must upgrade their browsers in order to continue accessing our website.
 
-However, we may hope that:
+We may hope that:
 
 - It is non-intrusive, not a Vue or React component, and has no impact on our existing code at all.
 
