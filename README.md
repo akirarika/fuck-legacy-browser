@@ -16,7 +16,7 @@ We may hope that:
 Create a `<script>` tag at the beginning of the `<head>` tag in your HTML and paste the code into it.
 
 ```js
-setTimeout(function(){var ban=false;if(typeof window.Proxy==="undefined")ban=true;else if(typeof[].findLast==="undefined")ban=true;else if(navigator.userAgent.includes("Safari")&&typeof[].toSorted==="undefined")ban=true;var zh="您的浏览器版本较旧，不支持本网站<br />请尝试升级您的浏览器或重装系统";var en="Your browser version is older and does not support this website <br/> Please try to upgrade your browser or operating system.";if(!ban)return;var div0=document.createElement("div");var lang="en";try{if(sAgent.indexOf("Trident")>0)lang=window.navigator.browserLanguage;else lang=window.navigator.language}catch(e){}function startsWith(search,rawPos){var pos=rawPos>0?rawPos|0:0;return search.substring(pos,pos+search.length)===search}var s="";if(startsWith(lang,"zh"))s=zh;else s=en;div0.innerHTML='<div style="background-color:#ffffff;z-index:2147483647;position:fixed;left:0;top:0;width:100%;height:100%;"><div style="width:100%;height:100%;z-index:2147483647;vertical-align:center;text-align:center;color:#3288f5;font-size:14px;line-height:1.6;padding:32px;box-sizing:border-box">'+s+'</div></div>';document.body.appendChild(div0)});
+setTimeout(function(){var ban=false;if(typeof window.Proxy==="undefined")ban=true;else if(typeof[].findLast==="undefined")ban=true;else if(navigator.userAgent.includes("Safari")&&typeof[].toSorted==="undefined")ban=true;var zh="您的浏览器或系统版本过旧，不支持本网站<br />请尝试升级您的浏览器或系统";var en="Your browser or system version is outdated and does not support this website < br/> Please try to upgrade your browser or system";if(!ban)return;var div0=document.createElement("div");var lang="en";try{if(sAgent.indexOf("Trident")>0)lang=window.navigator.browserLanguage;else lang=window.navigator.language}catch(e){}function startsWith(search,rawPos){var pos=rawPos>0?rawPos|0:0;return search.substring(pos,pos+search.length)===search}var s="";if(startsWith(lang,"zh"))s=zh;else s=en;div0.innerHTML='<div style="background-color:#ffffff;z-index:2147483647;position:fixed;left:0;top:0;width:100%;height:100%;"><div style="width:100%;height:100%;z-index:2147483647;vertical-align:center;text-align:center;color:#3288f5;font-size:14px;line-height:1.6;padding:32px;box-sizing:border-box">'+s+'</div></div>';document.body.appendChild(div0)});
 ```
 
 If you use nuxt:
@@ -26,7 +26,7 @@ useHead({
   script: [
     {
       type: 'text/javascript',
-      innerHTML: `setTimeout(function(){var ban=false;if(typeof window.Proxy==="undefined")ban=true;else if(typeof[].findLast==="undefined")ban=true;else if(navigator.userAgent.includes("Safari")&&typeof[].toSorted==="undefined")ban=true;var zh="您的浏览器版本较旧，不支持本网站<br />请尝试升级您的浏览器或重装系统";var en="Your browser version is older and does not support this website <br/> Please try to upgrade your browser or operating system.";if(!ban)return;var div0=document.createElement("div");var lang="en";try{if(sAgent.indexOf("Trident")>0)lang=window.navigator.browserLanguage;else lang=window.navigator.language}catch(e){}function startsWith(search,rawPos){var pos=rawPos>0?rawPos|0:0;return search.substring(pos,pos+search.length)===search}var s="";if(startsWith(lang,"zh"))s=zh;else s=en;div0.innerHTML='<div style="background-color:#ffffff;z-index:2147483647;position:fixed;left:0;top:0;width:100%;height:100%;"><div style="width:100%;height:100%;z-index:2147483647;vertical-align:center;text-align:center;color:#3288f5;font-size:14px;line-height:1.6;padding:32px;box-sizing:border-box">'+s+'</div></div>';document.body.appendChild(div0)});`
+      innerHTML: `setTimeout(function(){var ban=false;if(typeof window.Proxy==="undefined")ban=true;else if(typeof[].findLast==="undefined")ban=true;else if(navigator.userAgent.includes("Safari")&&typeof[].toSorted==="undefined")ban=true;var zh="您的浏览器或系统版本过旧，不支持本网站<br />请尝试升级您的浏览器或系统";var en="Your browser or system version is outdated and does not support this website < br/> Please try to upgrade your browser or system";if(!ban)return;var div0=document.createElement("div");var lang="en";try{if(sAgent.indexOf("Trident")>0)lang=window.navigator.browserLanguage;else lang=window.navigator.language}catch(e){}function startsWith(search,rawPos){var pos=rawPos>0?rawPos|0:0;return search.substring(pos,pos+search.length)===search}var s="";if(startsWith(lang,"zh"))s=zh;else s=en;div0.innerHTML='<div style="background-color:#ffffff;z-index:2147483647;position:fixed;left:0;top:0;width:100%;height:100%;"><div style="width:100%;height:100%;z-index:2147483647;vertical-align:center;text-align:center;color:#3288f5;font-size:14px;line-height:1.6;padding:32px;box-sizing:border-box">'+s+'</div></div>';document.body.appendChild(div0)});`
     },
   ],
 });
@@ -44,8 +44,8 @@ setTimeout(function() {
     if (typeof window.Proxy === "undefined") ban = true;
     else if (typeof [].findLast === "undefined") ban = true;
     else if (navigator.userAgent.includes("Safari") && typeof [].toSorted === "undefined") ban = true;
-    var zh = "您的浏览器版本较旧，不支持本网站<br />请尝试升级您的浏览器或重装系统";
-    var en = "Your browser version is older and does not support this website <br/> Please try to upgrade your browser or operating system.";
+    var zh = "您的浏览器或系统版本过旧，不支持本网站<br />请尝试升级您的浏览器或系统";
+    var en = "Your browser or system version is outdated and does not support this website < br/> Please try to upgrade your browser or system";
     if (!ban) return;
     var div0 = document.createElement("div");
     var lang = "en";
