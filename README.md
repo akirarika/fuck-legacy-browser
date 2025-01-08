@@ -9,7 +9,9 @@ We may hope that:
 
 - We also don't want it to redirect to third-party pages, have no advertisements, and won't provide any browser download links.
 
-- It will cover the entire page to prevent users from seeing incorrect styles or using invalid functions. 
+- It will cover the entire page to prevent users from seeing incorrect styles or using invalid functions.
+
+![](./435C65590F3A61B3DE69574D4B6DB405.png)
 
 ## Install
 
