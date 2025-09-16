@@ -47,6 +47,7 @@ setTimeout(function() {
     else if (typeof [].findLast === "undefined") ban = true;
     else if (typeof AbortSignal === "undefined") ban = true;
     else if (typeof AbortSignal.timeout === "undefined") ban = true;
+    else if (typeof EyeDropper === "undefined") ban = true;
     if (!ban) return;
     var div0 = document.createElement("div");
     var lang = "en";
