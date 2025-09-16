@@ -38,7 +38,7 @@ useHead({
 
 Perhaps you may want to customize some of your own logic. Then here is an uncompressed version.
 
-Firstly, this piece of code will first determine whether there are some browser methods that are only available in higher versions to ensure that the user's browser version is new enough. This requires Chrome to be at least version 103, Firefox to be at least version 104. For the Safari browser, the version requirement has been raised to 16, because there were many strange issues with DOM and CSS in version 15.x.
+Firstly, this piece of code will first determine whether there are some browser methods that are only available in higher versions to ensure that the user's browser version is new enough. This requires Chrome to be at least version 108, Firefox to be at least version 125. For the Safari browser, the version requirement has been raised to 18, because there were many strange issues with DOM and CSS in version 15.x.
 
 Through `setTimeout`, it is ensured that the code can support Internet Explorer while not blocking your main code logic. Meanwhile, it is also ensured that even if there are errors in the execution of your subsequent code, the prompt for upgrading the browser can still be displayed normally. 
 
