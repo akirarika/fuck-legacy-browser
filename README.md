@@ -25,33 +25,41 @@ At the same time, we avoid blaming users for using outdated technology or older 
 
 For iPhone users:
 
+```
 This app requires a device running iOS 18.0 or later to function properly.
 
 We sincerely apologize. Our team is working tirelessly to improve app compatibility, and we will strive to support more devices in the future so that more users can enjoy a smooth experience. ✨
+```
 
 For macOS users:
 
+```
 This app requires Safari 18.0 or macOS Sequoia (or later) to function properly.
 
 We sincerely apologize. Our team is working tirelessly to improve app compatibility, and we will strive to support more devices in the future so that more users can enjoy a smooth experience. ✨
+```
 
 For non-iOS mobile users (typically Android users):
 
+```
 This app requires the latest system version to function properly.
 
 If your system is already up to date, it's possible that your device is not yet supported. We sincerely apologize!
 
 Our team is working tirelessly to improve app compatibility, and we will strive to support more devices in the future so that more users can enjoy a smooth experience. ✨
+```
 
 (Note: Although users could update WebView, many regions—especially China—do not have access to Google Play. Instead, each phone brand has its own app store, and many systems prohibit installing apps outside of these stores. Therefore, updating WebView is often difficult and not straightforward for users. Hence, the recommendation here is to update the system.)
 
 For non-macOS computer users (typically Windows users):
 
+```
 This app requires the latest browser version to function properly.
 
 We recommend using Edge browser and updating it to the latest version.
 
 We sincerely apologize. Our team is working tirelessly to improve app compatibility, and we will strive to support more devices in the future so that more users can enjoy a smooth experience. ✨
+```
 
 ## Install
 
