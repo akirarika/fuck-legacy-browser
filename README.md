@@ -11,7 +11,7 @@ We may hope that:
 
 - It will cover the entire page to prevent users from seeing incorrect styles or using invalid functions.
 
-- 
+- The user's Safari browser version must be at least 18.0. If the user is using an Android phone, the WebView version must be at least 108.
 
 ![](./435C65590F3A61B3DE69574D4B6DB405.png)
 
